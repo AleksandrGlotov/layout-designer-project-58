@@ -1,0 +1,18 @@
+.h-with-dark-bg {
+    display: block;
+    padding: 5px 10px;
+    background-color: var(--white);
+    color: var(--brown);
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.bg-color-dark .mini-h-dark {
+    color: var(--white-half);
+    font-size: 24px;
+    font-family: 'Neucha', cursive;
+}
+
+.bg-color-dark p, .bg-color-dark h2, .bg-color-dark h3 {
+    color: var(--white);
+}

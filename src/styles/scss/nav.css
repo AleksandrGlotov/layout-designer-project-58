@@ -1,0 +1,26 @@
+.padding-top-200 {
+    padding-top: 100px;
+    background-color: var(--primary-dark);
+}
+
+.advantages {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.advantage {
+    width: calc((100% - 60px) / 3);
+}
+
+.color-primary {
+    color: var(--primary);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.advantage h2 {
+    font-size: 52px;
+}

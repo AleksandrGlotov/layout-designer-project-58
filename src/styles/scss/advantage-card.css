@@ -1,0 +1,31 @@
+.advantage-card {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 60px) / 3 - 48px);
+    padding: 24px;
+    background-color: var(--white);
+    text-decoration: none;
+    color: unset;
+}
+
+.advantage-card:hover {
+    background-color: var(--primary);
+    cursor: po;
+}
+
+.advantage-card:hover h3, .advantage-card:hover p {
+    color: var(--white);
+}
+
+
+.advantage-card h3 {
+    color: var(--primary);
+    margin-bottom: 16px;
+}
+
+.advantage-number {
+    margin-bottom: 40px;
+    font-size: 64px;
+    font-family: 'Neucha', cursive;
+    line-height: 1;
+}

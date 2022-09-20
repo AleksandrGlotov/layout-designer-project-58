@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light);
+    position: relative;
+    z-index: 0;
+}
+
+.header-abs {
+    position: relative;
+    padding: 100px 0;
+}
+
+.main-h1 {
+    position: relative;
+    z-index: 10;
+}
+
+.main-image {
+    height: 525px;
+    position: absolute;
+    top: 55px;
+    right: -270px;
+}
+
+.description {
+    margin-top: 185px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    z-index: 10;
+}
+
+.description-col {
+    width: calc((100% - 30px) / 2);
+}
+
+.main-link {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: var(--primary);
+    z-index: 100;
+    cursor: pointer;
+    text-decoration: none;
+}

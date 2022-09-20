@@ -1,0 +1,92 @@
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.form-cont {
+    padding: 0 55px;
+    height: 190px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--primary-dark);
+}
+
+.form-cont h3 {
+    color: var(--white);
+    display: inline-block;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 485px;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 9px;
+    color:var(--white)
+}
+
+form span {
+    color: var(--white);
+    font-size: 12px;
+}
+
+.footer-text {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.footer-text p {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.footer-text a {
+    color: var(--blue);
+    font-size: 14px;
+}
+
+input {
+    box-sizing: border-box;
+    height: 50px;
+    padding: 15px;
+    position: relative;
+    width: 415px;
+    display: inline-block;
+    border: none;
+}
+
+input::placeholder {
+    color: #757575;
+    opacity: 0.2;
+}
+
+input:focus {
+    outline: none;
+}
+
+input + button {
+    width: 70px;
+    height: 50px;
+    background-color: var(--primary);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input + button::before {
+    content: url(/src/assets/send.svg);
+}
+
+.flex-input {
+    display: flex;
+}
