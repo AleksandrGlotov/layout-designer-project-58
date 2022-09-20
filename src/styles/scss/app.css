@@ -43,6 +43,7 @@ h1, h2, h3 {
   line-height: 1.2em;
   font-family: 'Neucha', cursive;
   margin: 0;
+  font-weight: 400;
 }
 
 section {
@@ -58,7 +59,7 @@ section {
 
 .bg-pattern::before {
   content: '';
-  background-image: url(/src/assets/background.png);
+  background-image: url(../../assets/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

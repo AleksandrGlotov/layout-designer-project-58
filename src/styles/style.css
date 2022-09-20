@@ -1,13 +1,10 @@
 /** CSS STYLE **/
-@import '../styles/scss/app.css';
-@import '../styles/scss/header.css';
-@import '../styles/scss/button.css';
-@import '../styles/scss/video.css';
-@import '../styles/scss/nav.css';
-@import '../styles/scss/advantage-card.css';
-@import '../styles/scss/light-block.css';
-@import '../styles/scss/dark-block.css';
-@import '../styles/scss/footer.css';
-
-
-
+@import "../styles/scss/app.css";
+@import "../styles/scss/header.css";
+@import "../styles/scss/button.css";
+@import "../styles/scss/video.css";
+@import "../styles/scss/nav.css";
+@import "../styles/scss/advantage-card.css";
+@import "../styles/scss/light-block.css";
+@import "../styles/scss/dark-block.css";
+@import "../styles/scss/footer.css";
